@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+img {
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+html  {
+    font-family: REM, sans-serif;
+    background-color: #f5f3f3;
+}
+
+body {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    background-color: #4a3748;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
