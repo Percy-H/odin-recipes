@@ -1,2 +1,2 @@
-# Placeholder
-This will be updated as work progresses.
+# Odin Recipes Project
+This repository is for my early foray into the Odin Project, specifically the example recipe site. Expect it to look scuffed at this point, as the current lesson is focussed on html; css will (possibly) come later.
