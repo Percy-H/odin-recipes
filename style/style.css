@@ -7,49 +7,68 @@ img {
     margin: 0 auto;
 }
 
-html  {
-
-}
 
 body {
-    width: 600px;    
     font-family: REM, sans-serif;
-    background-color: #9da6ab;
+    background-color: #ddd26f;
 }
 
 p {
-    background-color: #e48177;
-    color: white;
+    color: #e465239;
     font-size: 18px;
 }
 
 h1 {
-    background-color: #4a3748;
+    background-color: #465239;
+    padding: 5px;
     color: white;
     font-size: 32px;
     font-weight: bold;
+    width: fit-content;
 }
 
-.recipe {
-    display: block;
-
-    height: 3em;
-    background-color: #323751;
-    padding-top: 20px;
+section {
+    display: flex;
+    height: auto;
+    flex-flow: row wrap;
+    text-align: right;
 }
 
-ul li {
-    text-align: center;
+ul {
+    list-style-type: lower-greek;
 }
 
-li a:link {
-    color: #f5f3f3;
+
+article {
+    width: 300px;
+    display: inline-flex;
+    background-color: #d5c73f;
+    flex-flow: row wrap;
+    margin: 25px;
 }
 
-li a:visited {
-    color: #c48750;
+article img {
+    width: 128px;
+    margin-left: 0;
+    height: auto;
+    justify-items: flex-start;
 }
 
-li a:link {
-    color: #f5f3f3;
+article a {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+a:link {
+    color: #573d20;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #d65739;
+    text-decoration: none;
 }
