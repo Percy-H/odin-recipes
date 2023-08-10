@@ -33,13 +33,6 @@ h1 {
     font-weight: 400;
 }
 
-section {
-    display: flex;
-    height: auto;
-    flex-flow: row wrap;
-    text-align: right;
-}
-
 ul {
     list-style-type: lower-greek;
 }
