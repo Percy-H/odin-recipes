@@ -48,6 +48,7 @@ ul {
 
 article {
     width: 300px;
+    height: 128px;
     display: inline-flex;
     background-color: var(--warmlight);
     flex-flow: row wrap;
@@ -58,13 +59,13 @@ article img {
     width: 128px;
     margin-left: 0;
     height: auto;
-    justify-items: flex-start;
 }
 
 
 article a {
     margin-right: 10px;
     margin-top: 10px;
+
 }
 
 a:link {
