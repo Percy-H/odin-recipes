@@ -11,10 +11,8 @@
 img {
     height: auto;
     width: 500px;
-    display: block;
     margin: 0 auto;
 }
-
 
 body {
     font-family: REM, sans-serif;
@@ -22,6 +20,7 @@ body {
     color: var(--warmdark);
     width: 80%;
     padding: 5px;
+    margin: auto;
 }
 
 p {
@@ -34,8 +33,6 @@ h1 {
     width: fit-content;
 }
 
-
-
 .hello {
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
@@ -44,7 +41,6 @@ h1 {
 ul {
     list-style-type: lower-greek;
 }
-
 
 article {
     width: 300px;
@@ -75,6 +71,7 @@ a:link {
 
 a:hover {
     text-decoration: underline;
+    border: 1em pink;
 }
 
 a:visited {
