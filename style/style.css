@@ -8,6 +8,11 @@
     --cooldark: #008570;
   }
 
+  * {
+
+    box-sizing: border-box;
+}
+
 img {
     height: auto;
     width: 500px;
@@ -18,19 +23,33 @@ body {
     font-family: REM, sans-serif;
     background-color: var(--neutral);
     color: var(--warmdark);
-    width: 80%;
-    padding: 5px;
+    width: 90%;
     margin: auto;
 }
 
-p {
-    font-size: 18px;
+main {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.recipelist {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 300px;
+    height: 128px;
+    display: flex;
+    background-color: var(--warmlight);
+    margin: 30px;
 }
 
 h1 {
     font-size: 32px;
     font-weight: bold;
-    width: fit-content;
 }
 
 .hello {
@@ -38,17 +57,13 @@ h1 {
     font-weight: 400;
 }
 
-ul {
-    list-style-type: lower-greek;
+.whisper {
+    font-size: 10px;
+    opacity: 30%;
 }
 
-article {
-    width: 300px;
-    height: 128px;
-    display: inline-flex;
-    background-color: var(--warmlight);
-    flex-flow: row wrap;
-    margin: 25px;
+ul {
+    list-style-type: lower-greek;
 }
 
 article img {
