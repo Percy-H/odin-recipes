@@ -35,8 +35,9 @@ main {
 
 .recipelist {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 article {
@@ -44,7 +45,7 @@ article {
     height: 128px;
     display: flex;
     background-color: var(--warmlight);
-    margin: 30px;
+
 }
 
 h1 {
